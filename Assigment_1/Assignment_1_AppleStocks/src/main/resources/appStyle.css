@@ -1,0 +1,72 @@
+/* css style */
+.root {
+    -fx-font-family: "roboto";
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.switch-button {
+    -fx-background-color: #2E8B57;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-margin-top: 20px;
+}
+
+.switch-button:hover {
+    -fx-background-color: #3CB371;
+}
+
+.chart-title {
+    -fx-font-size: 16pt;
+    -fx-text-fill: white;
+    -fx-padding-bottom: 20px;
+}
+
+.axis-label {
+    -fx-font-size: 11pt;
+    -fx-text-fill: white;
+}
+
+.axis {
+    -fx-tick-label-fill: white;
+}
+
+.chart-legend {
+    -fx-text-fill: white;
+}
+
+.chart-plot-background {
+    -fx-background-color: black;
+}
+
+
+/*  bar color orange */
+.default-color0.chart-bar {
+    -fx-bar-fill: orange;
+}
+
+.table-view {
+    -fx-background-color: black;
+
+}
+
+
+
+/* background table chart*/
+.table-view .table-row-cell {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+}
+
+/* Colum title color*/
+
+.table-view .column-header .label {
+    -fx-text-fill: black;
+}
+
+/* cell text in white */
+.table-view .table-cell {
+    -fx-text-fill: white;
+}
